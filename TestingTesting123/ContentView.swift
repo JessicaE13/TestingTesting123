@@ -10,10 +10,20 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "light.beacon.min.fill")
-                .resizable()
-                .scaledToFit()
-                .foregroundStyle(.red)
+            HStack {
+                Image(systemName: "light.beacon.min.fill")
+                    .resizable()
+                    .scaledToFit()
+                    .foregroundStyle(.yellow)
+                Image(systemName: "light.beacon.min.fill")
+                    .resizable()
+                    .scaledToFit()
+                    .foregroundStyle(.orange)
+                Image(systemName: "light.beacon.min.fill")
+                    .resizable()
+                    .scaledToFit()
+                    .foregroundStyle(.red)
+            }
             Text("This is a test! This is only a test!")
                 .font(.largeTitle)
                 .fontWeight(.heavy)
