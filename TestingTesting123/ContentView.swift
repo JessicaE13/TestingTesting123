@@ -39,6 +39,10 @@ struct ContentView: View {
             Text("This is a test! This is only a test!")
                 .font(.largeTitle)
                 .fontWeight(.heavy)
+                .foregroundStyle(.black)
+            Text("What could possibly go wrong?")
+                .font(.title2)
+                .fontWeight(.medium)
                 .foregroundStyle(.gray)
         }
         .padding()
